@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Option from '../Options/Options';
 import slugify from 'slugify';
 
+
 class Features extends Component{
   render(){
     const {featureHash, feature, options, selectedOption} = this.props;

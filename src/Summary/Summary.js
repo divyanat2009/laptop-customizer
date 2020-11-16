@@ -8,7 +8,7 @@ class Summary extends Component{
     const summary = Object.keys(this.props.selected).map((feature, idx) => {
     const featureHash = feature + '-' + idx;
     return(
-          <CartItem 
+          <CartItems 
            key={featureHash}
            selectedOption={feature}
            details={this.props.selected[`${feature}`]}/>
